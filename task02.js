@@ -11,4 +11,4 @@ const isPrime = (number) => {
   }
 }
 
-isPrime();
+console.log(`результат проверки на простое число: ${isPrime(911)}`);

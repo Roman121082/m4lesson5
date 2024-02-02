@@ -5,4 +5,4 @@ const reverseString = (string) => {
   return string.split("").reverse().join("");
 }
 
-reverseString("Привет мир");
+console.log(`результат реверса текста: ${reverseString("Привет мир")}`);
