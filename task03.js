@@ -1,6 +1,6 @@
 'use strict';
 
-function reverseString(string) {
+const reverseString = (string) => {
 
   return string.split("").reverse().join("");
 }
